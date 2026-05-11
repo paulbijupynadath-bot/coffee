@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffeshop</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <a href="#home" class="logo">☕Brew & Bloom</a>
+        <button class="hamburger" id="hamburger" aria-label="open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="gallery">Gallery</a></li>
+                <li><a href="menu">Menu</a></li>
+                <li><a href="contact">Contact</a></li>
+
+            </ul>
+        
+    </nav>
+    <section class="hero" id ="home">
+        <h1>where every sip tells a story</h1>
+        <p>freshly brewed . lovingly crafted . always warm</p>
+        <a href="#menu" class ="btn">Explore our menu</a>
+    </section>
+    <section id="about">
+        <h2 class="section-title">our story</h2>
+        <p class="section-subtitle">A little shop with a big heart</p>
+        <div class="about-inner">
+            <img
+            class="about-img"
+            src=https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80" alt="Barista preparing coffee"
+            />
+            <div class="about-text">
+                <h2>from bean to cup</h2>
+                <p>
+                    Brew &amp; Bloom started in 2015 as a tiny corner shop with one espresso machine and a whole lot of passion . Today we source our beans directly from farmers in kerala ,Ethiopia, and colombia,ensuring every cup supports sustainable farming.
+                    </p>
+                    <br />
+                    <p>
+                        We believe coffee is more than a drink- it is a moment of connection. Come pull  up a chair ,slow down , and let us brew something memorable for you
+
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+    <h2 class="section-title">Our Menu</h2>
+    <p class="section-subtitle">Hover over a card to see the magic ✨</p>
+
+    <div class="menu-grid">
+
+      <div class="menu-card">
+        <span class="card-icon">☕</span>
+        <h3>Espresso</h3>
+        <p>Pure, strong &amp; bold — our signature single shot.</p>
+        <span class="price">₹80</span>
+      </div>
+
+      <div class="menu-card">
+        <span class="card-icon">🥛</span>
+        <h3>Café Latte</h3>
+        <p>Smooth espresso with creamy steamed milk.</p>
+        <span class="price">₹140</span>
+      </div>
+
+      <div class="menu-card">
+        <span class="card-icon">🍫</span>
+        <h3>Mocha</h3>
+        <p>Chocolate meets coffee in the best way possible.</p>
+        <span class="price">₹160</span>
+      </div>
+
+      <div class="menu-card">
+        <span class="card-icon">🧊</span>
+        <h3>Cold Brew</h3>
+        <p>12-hour steeped, served over ice. Refreshing!</p>
+        <span class="price">₹180</span>
+      </div>
+
+      <div class="menu-card">
+        <span class="card-icon">🍵</span>
+        <h3>Matcha Latte</h3>
+        <p>Japanese matcha blended with oat milk.</p>
+        <span class="price">₹170</span>
+      </div>
+
+      <div class="menu-card">
+        <span class="card-icon">🥐</span>
+        <h3>Croissant</h3>
+        <p>Buttery, flaky, baked fresh every morning.</p>
+        <span class="price">₹120</span>
+      </div>
+
+    </div>
+  </section>
+  <section id="menu">
+    <h3 class="section-title">Our special Items🍤🍱</h3>
+    <p class="section-subtitle">🍔Our World popular Delicious Food Items🍟🍐🍱 ✨</p>
+    
+   <section id="gallery">
+    <h3 class="section-title">Gallery</h2>
+    <p class="section-subtitle">A glimpse into our cozy corner ☕📸</p>
+    <div class="gallery-grid">
+    <div class="gallery-grid">
+      <img src="images.jpg" alt="Latte Art" class="gallery-img">
+      <img src="https://images.pexels.com/photos/19560976/pexels-photo-19560976.jpeg" alt="Coffee Beans" class="gallery-img">
+      <img src="https://images.pexels.com/photos/175711/pexels-photo-175711.jpeg" alt="Cafe Interior" class="gallery-img">
+      <img src="https://images.pexels.com/photos/872903/pexels-photo-872903.jpeg" alt="Barista at Work" class="gallery-img">
+      <img src="https://images.pexels.com/photos/4349843/pexels-photo-4349843.jpeg" alt="Latte Art 2" class="gallery-img">
+      <img src="https://images.pexels.com/photos/10409989/pexels-photo-10409989.jpeg" alt="Coffee Beans 2" class="gallery-img">
+    </div>
+  </section>
+  <section>
+  <h2 class="section-title">contact-form</h2>
+  <form ALIGN="CENTER" class="contact-form" action="#" method="post">
+      <div class="form-row">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required>
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+      </div>
+      <div class="form-field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell us what you'd like" required></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>    
+</body>
+</html>
